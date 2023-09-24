@@ -26,7 +26,7 @@ Messaging today seems easy. Technology is advancing rapidly– we send quick tex
 
 ### Technologies
 
-I am going to use the required technologies in the following ways
+I am going to use the required technologies in the following ways:
 
  - **HTML** - Uses correct HTML structure for application. Three HTML pages, for login, messages, and profile page.
  - **CSS** - Application styling properly adjusts to different screen sizes. Application uses good whitespace, color choice and contrast.
