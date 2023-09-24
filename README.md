@@ -9,4 +9,24 @@ Course notes found in [here](/notes.md).
 
 ### Elevator Pitch
 
+### Design
 
+### Key Features
+
+### Technologies
+
+## HTML Deliverable
+
+## CSS Deliverable
+
+## JavaScript Deliverable
+
+## Service Deliverable
+
+## Database Deliverable
+
+## Login Deliverable
+
+## Websocket Deliverable
+
+## React Deliverable
