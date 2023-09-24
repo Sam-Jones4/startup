@@ -13,9 +13,11 @@ Messaging today seems easy. Technology is advancing rapidly– we send quick tex
 
 ### Design
 
-
+![Mock](WebChatMeDesign.jpg)
 
 ### Key Features
+
+
 
 ### Technologies
 
