@@ -17,7 +17,12 @@ Messaging today seems easy. Technology is advancing rapidly– we send quick tex
 
 ### Key Features
 
-
+ - Secure login over HTTPS
+ - Ability to send messages to other users
+ - Display of messages
+ - Sidebar displaying all conversations
+ - Ability to set profile picture to be seen by other users
+ - Messages and data are safely stored
 
 ### Technologies
 
