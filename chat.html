@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>WebChatMe</title>
-        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Twemoji_1f4ac.svg/1024px-Twemoji_1f4ac.svg.png?20141214103953" />
-    </head>
-    <body>
-        <header>
-            <h1>Web Chat Me</h1>
 
-            <nav>
-                <menu>
-                    <li><a href="index.html">Sign out</a></li>
-                    <li><a href="chat.html">Chat</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                </menu>
-            </nav>
-            </hr>
-        </header>
-        <main>
-            <div class="chats"></div>
-            Chats:
-            
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebChatMe</title>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Twemoji_1f4ac.svg/1024px-Twemoji_1f4ac.svg.png?20141214103953" />
+</head>
 
+<body>
+    <header>
+        <h1>Web Chat Me</h1>
 
-        </main>
-        <footer>
+        <nav>
+            <menu>
+                <li><a href="index.html">Sign out</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </menu>
+        </nav>
+        </hr>
+    </header>
 
-        </footer>
-    </body>
+    <main>
+        <h3>Chats:</h3>
+
+        <div class="search-bar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Search_Icon.png" alt="search-icon" 
+            height="10px" 
+            width="10px">
+            <input type="search" id="search-bar" placeholder="Search chats">
+        </div>
+
+        <div class="chats">
+            <ul>
+                <li>Bryce</li>
+                <li>Allan</li>
+                <li>Ella</li>
+                <li>Claire</li>
+            </ul>
+        </div>
+
+        <hr />
+        
+        <div class="active-chat">
+            <div class="received-chat">Hey</div>
+            <div class="sent-chat">Hey</div>
+        </div>
+        
+        <div class="send-message-bar">
+            <input type="text" id="send-message" placeholder="Type your message">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-send-2451554-2082560.png" alt="send-icon"
+            height="15px"
+            width="15px">
+        </div>
+    </main>
+
+    <footer>
+        <hr />
+            <span class="text-reset">Author Name(s)</span>
+            <br />
+            <a href="https://github.com/Sam-Jones4">GitHub</a>
+    </footer>
+</body>
+
 </html>
