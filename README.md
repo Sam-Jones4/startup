@@ -42,6 +42,16 @@ I am going to use the required technologies in the following ways:
 
 ## HTML Deliverable
 
+For this deliverable I built out the structure of my application using HTML.
+
+ - **HTML Pages** - Three HTML pages representing the ability to login, send chats, receive chats, view recent chats, and set a profile picture.
+ - **Links** - The Login page automatically links to the Chat page. From the Chat and Profile pages, a user can navigate to the other page or sign out using a menu.
+ - **Text** - Messages will be sent and received in a text format.
+ - **Images** - A user will have a profile picture. There are image icons throughout the website for easier understanding.
+ - **Login** - Input boxes for username and password, and a submit button for login.
+ - **Database** - The database will store messages sent and received, as well as a user's profile picture and recent chat history.
+ - **WebSocket** - Users will send and receive messages to one another in realtime.
+
 ## CSS Deliverable
 
 ## JavaScript Deliverable
