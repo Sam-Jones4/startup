@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>WebChatMe</title>
-        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Twemoji_1f4ac.svg/1024px-Twemoji_1f4ac.svg.png?20141214103953" />
-    </head>
-    <body>
-        <header>
-            <h1>Web Chat Me</h1>
 
-            <nav>
-                <menu>
-                    <li><a href="index.html">Sign out</a></li>
-                    <li><a href="chat.html">Chat</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                </menu>
-            </nav>
-            </hr>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebChatMe</title>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Twemoji_1f4ac.svg/1024px-Twemoji_1f4ac.svg.png?20141214103953" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+</head>
 
-        <main>
-            <h1>Welcome to Web Chat Me</h1>
-            <h3>Your drama-free chat platform</h3>
+<body>
+    <header>
+        <h1>Web Chat Me</h1>
+
+        <nav>
+            <menu>
+                <li><a href="index.html">Sign out</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </menu>
+        </nav>
+        </hr>
+    </header>
+
+    <main>
+        <h1>Welcome to Web Chat Me</h1>
+        <h3>Your drama-free chat platform</h3>
+        <br>
+        <p>Log in</p>
+        <form method="get" action="chat.html">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username">
             <br>
-            <p>Log in</p>
-            <form method="get" action="chat.html">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Username">
-                <br>
-                <label for="password">Password</label>
-                <input type="text" id="password" placeholder="Password">
-                <br>
-                <button type="submit">Start Chatting</button>
-            </form>
-        </main>
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Password">
+            <br>
+            <button type="submit">Start Chatting</button>
+        </form>
+    </main>
 
-        <footer>
-            <hr />
-            <span class="text-reset">Sam Jones Inc. ®</span>
-            <br />
-            <a href="https://github.com/Sam-Jones4">GitHub</a>
-        </footer>   
-    </body>
+    <footer>
+        <hr />
+        <span class="text-reset">Sam Jones Inc. ®</span>
+        <br />
+        <a href="https://github.com/Sam-Jones4">GitHub</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
