@@ -20,8 +20,7 @@ body {
     justify-content: space-around;
   }
 
-  .menu-container
-  {
+  .menu-container {
     float: right;
     text-align: right;
   }
@@ -40,7 +39,7 @@ body {
     margin-right: 20px;
   }
 
-  .nav .nav-pills{
+  .nav .nav-pills {
     display: flex;
     float: right;
   }
@@ -74,9 +73,27 @@ body {
     color: aliceblue;
   }
 
+  .login-form{
+    text-align: center;
+    float: center;
+  }
+
+  .btn {
+    background-color: darkcyan;
+    color: aliceblue;
+    border: solid aliceblue;
+  }
+
+  .btn:hover{
+    background-color: aliceblue;
+    color: darkcyan;
+    border: solid darkcyan;
+  }
+
 
   footer a {
     float: right;
+    color: aliceblue;
   }
   
   @media (max-height: 600px) {
