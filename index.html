@@ -9,24 +9,25 @@
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Twemoji_1f4ac.svg/1024px-Twemoji_1f4ac.svg.png?20141214103953" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="global.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Web Chat Me</h1>
-
-        <nav>
-            <menu>
-                <li><a href="chat.html">Chat</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="index.html">Sign out</a></li>
-            </menu>
+    <header class="container-fluid">
+        <nav class="navbar navbar-fixed-top">
+            <h1>Web Chat Me</h1>
+            <div class="menu-conatiner">
+                <menu class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="chat.html">Chat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Sign out</a></li>
+                </menu>
+            </div>
         </nav>
-        </hr>
     </header>
 
-    <main>
-        <h1>Welcome to Web Chat Me</h1>
+    <main class="container-fluid text-center">
+        <h1 class="">Welcome to Web Chat Me</h1>
         <h3>Your drama-free chat platform</h3>
         <br>
         <p>Log in</p>
@@ -37,11 +38,11 @@
             <label for="password">Password</label>
             <input type="text" id="password" placeholder="Password">
             <br>
-            <button type="submit">Start Chatting</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Start Chatting</button>
         </form>
     </main>
 
-    <footer>
+    <footer class="container-fluid">
         <hr />
         <span class="text-reset">Sam Jones Inc. ®</span>
         <br />
@@ -49,9 +50,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
