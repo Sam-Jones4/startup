@@ -27,6 +27,7 @@ body {
   
   footer {
     flex: 0 30px;
+    background-color: darkcyan;
   }
   
   menu {
