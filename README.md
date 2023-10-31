@@ -54,6 +54,15 @@ For this deliverable I built out the structure of my application using HTML.
 
 ## CSS Deliverable
 
+For this deliverable I styled the application into its final appearance.
+
+ - **Header, footer, and main content body**
+ - **Navigation elements** - I built out a nav bar and changed the header colors.
+ - **Responsive to window resizing** - My app will resize based on the screen size of the device.
+ - **Application elements** - Used good contrast and whitespace.
+ - **Application text content** - Used a consistent font.
+ - **Application Images** There are search and text icons, as well as a default profile picture if the user doesn't upload one (to be implemented later)
+
 ## JavaScript Deliverable
 
 ## Service Deliverable
