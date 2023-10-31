@@ -4,34 +4,34 @@ body {
     min-width: 375px;
     background-color: aliceblue;
     color: darkcyan;
-  }
-  
-  header {
+}
+
+header {
     flex: 0 80px;
     background-color: darkcyan;
     color: aliceblue;
-  }
-  
-  main {
+}
+
+main {
     flex: 1 calc(100vh - 110px);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-  }
+}
 
-  .menu-container {
+.menu-container {
     float: right;
     text-align: right;
-  }
-  
-  footer {
+}
+
+footer {
     flex: 0 30px;
     background-color: darkcyan;
     color: aliceblue;
-  }
-  
-  menu {
+}
+
+menu {
     flex: 1;
     display: flex;
     /*  overwrite Bootstrap so the menu does not wrap */
@@ -39,74 +39,105 @@ body {
     list-style: none;
     text-align: right;
     margin-right: 20px;
-  }
+}
 
-  .nav .nav-pills {
+.nav .nav-pills {
     display: flex;
     float: right;
-  }
+}
 
-  .nav-pills .nav-link {
+.nav-pills .nav-link {
     display: flex;
     background-color: aliceblue;
     color: darkcyan;
     border: solid darkcyan;
-  }
+}
 
 
-  .nav-pills .nav-link.active {
+.nav-pills .nav-link.active {
     display: flex;
     background-color: darkcyan;
     color: aliceblue;
     border: solid aliceblue;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     padding-left: 0.3em;
     border-bottom: solid rgb(182, 182, 182) thin;
-  }
-  
-  menu .nav-item {
+}
+
+menu .nav-item {
     padding: 0 0.3em;
-  }
+}
 
-  .nav-link
-  {
+.nav-link {
     color: aliceblue;
-  }
+}
 
-  .login-form{
-    text-align: center;
-    float: center;
-  }
-
-  .btn {
+.btn {
     background-color: darkcyan;
     color: aliceblue;
     border: solid aliceblue;
-  }
+}
 
-  .btn:hover{
+.btn:hover {
     background-color: aliceblue;
     color: darkcyan;
     border: solid darkcyan;
-  }
+}
+
+.chats {
+    display: block;
+    float: left;
+    min-height: 100%;
+    background-color: aliceblue;
+    border-right: darkcyan;
+    flex-grow: 1;
+}
+
+.sent-chat {
+    border: 2px solid #dedede;
+    border-color: #ccc;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.received-chat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.active-chat::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.active-chat-wrapper{
+    flex-grow: 9;
+}
 
 
-  footer a {
+footer a {
     float: right;
     color: aliceblue;
-  }
-  
-  @media (max-height: 600px) {
+}
+
+@media (max-height: 600px) {
     header {
-      display: none;
+        display: none;
     }
+
     footer {
-      display: none;
+        display: none;
     }
+
     main {
-      flex: 1 100vh;
+        flex: 1 100vh;
     }
-  }
-  
+}
