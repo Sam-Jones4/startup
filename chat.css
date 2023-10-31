@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    background-color: aliceblue;
+    color: darkcyan;
+  }
+  
+  header {
+    flex: 0 80px;
+    background-color: darkcyan;
+    color: aliceblue;
+  }
+  
+  main {
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu-container {
+    float: right;
+    text-align: right;
+  }
+  
+  footer {
+    flex: 0 30px;
+    background-color: darkcyan;
+    color: aliceblue;
+  }
+  
+  menu {
+    flex: 1;
+    display: flex;
+    /*  overwrite Bootstrap so the menu does not wrap */
+    flex-direction: row !important;
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .nav .nav-pills {
+    display: flex;
+    float: right;
+  }
+
+  .nav-pills .nav-link {
+    display: flex;
+    background-color: aliceblue;
+    color: darkcyan;
+    border: solid darkcyan;
+  }
+
+
+  .nav-pills .nav-link.active {
+    display: flex;
+    background-color: darkcyan;
+    color: aliceblue;
+    border: solid aliceblue;
+  }
+  
+  .navbar-brand {
+    padding-left: 0.3em;
+    border-bottom: solid rgb(182, 182, 182) thin;
+  }
+  
+  menu .nav-item {
+    padding: 0 0.3em;
+  }
+
+  .nav-link
+  {
+    color: aliceblue;
+  }
+
+  .login-form{
+    text-align: center;
+    float: center;
+  }
+
+  .btn {
+    background-color: darkcyan;
+    color: aliceblue;
+    border: solid aliceblue;
+  }
+
+  .btn:hover{
+    background-color: aliceblue;
+    color: darkcyan;
+    border: solid darkcyan;
+  }
+
+
+  footer a {
+    float: right;
+    color: aliceblue;
+  }
+  
+  @media (max-height: 600px) {
+    header {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+    main {
+      flex: 1 100vh;
+    }
+  }
+  
