@@ -1,4 +1,5 @@
-function login() {
+function login() 
+{
     const userName = document.querySelector("#username");
     localStorage.setItem("userName", userName.value);
     const passWord = document.querySelector("#password");
