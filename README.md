@@ -65,6 +65,13 @@ For this deliverable I styled the application into its final appearance.
 
 ## JavaScript Deliverable
 
+For this deliverable, I added some JavaScript to support future technologies and the application's functionality.
+
+ - **Login** - When you press enter or the login button it takes you to the chat page.
+ - **Database** - Added things to store the username and password locally, which will be replaced later. I will also use the databse later to store messages and the profile picture.
+ - **WebSocket** - Later, the WebSocket will allow you to send messages to other users
+ - **Application logic** - The chat.js file handles logic applying to sent and received messages.
+
 ## Service Deliverable
 
 ## Database Deliverable
