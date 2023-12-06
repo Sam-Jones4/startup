@@ -99,14 +99,14 @@ menu .nav-item {
     flex-grow: 1;
 }
 
-.chats a {
+.chats div {
     display: block;
     color: darkcyan;
     padding: 16px;
     text-decoration: none;
   }
 
-  .chats a.active {
+  .chats div.active-chat {
     background-color: darkcyan;
     color: aliceblue;
   }
