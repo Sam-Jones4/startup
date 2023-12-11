@@ -74,6 +74,14 @@ For this deliverable, I added some JavaScript to support future technologies and
 
 ## Service Deliverable
 
+For this deliverable, I added endpoints to send and receive messages.
+
+ - **Node.js/Express HTTP Service** - Done
+ - **Static Middleware for the frontend** - Done
+ - **Calls to third-party endpoints** - Done
+ - **Backend Service Endpoints** - Done
+ - **Frontend Calls Service Endpoints** - Done
+
 ## Database Deliverable
 
 ## Login Deliverable
