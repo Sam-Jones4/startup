@@ -21,3 +21,4 @@ async function addMessages(message)
   return result;
 }
 
+module.exports = {addMessages};
