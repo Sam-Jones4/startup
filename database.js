@@ -4,7 +4,7 @@ const config = require('./dbConfig.json');
 const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}`;
 const client = new MongoClient(url);
 const db = client.db('startup');
-const messgaeCollection = db.collection('message');
+const messageCollection = db.collection('message');
 
 // This will asynchronously test the connection and exit the process if it fails
 (async function testConnection() {
@@ -21,4 +21,11 @@ async function addMessages(message)
   return result;
 }
 
-module.exports = {addMessages};
+function postMessages() 
+{
+  const query = {};
+  const cursor = messageCollection.find(query);
+  return cursor.toArray();
+}
+
+module.exports = {addMessages, postMessages};
