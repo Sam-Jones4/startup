@@ -84,6 +84,12 @@ For this deliverable, I added endpoints to send and receive messages.
 
 ## Database Deliverable
 
+For this deliverable I stored all the messages in a database
+
+ - **MongoDB Atlas Database Created** - Done
+ - **Endpoints for data** - My endpoints now send the data to Mongo
+ - **Stores data in MongoDB** - Done
+
 ## Login Deliverable
 
 ## Websocket Deliverable
