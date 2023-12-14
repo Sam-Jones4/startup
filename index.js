@@ -84,14 +84,17 @@ secureApiRouter.use(async (req, res, next) => {
 });
 
 // GetMessages
-apiRouter.get('/chat', (_req, res) => {
+apiRouter.get('/chat', async (_req, res) => {
+  const messages = await DB.postMessages();
   res.send(messages);
 });
 
 // SendMessages
-apiRouter.post('/chat', (req, res) => {
-  messages = updateMessages(req.body, messages);
-  res.send();
+apiRouter.post('/chat', async (req, res) => {
+  const message = { ...req.body, ip: req.ip };
+  await DB.addMessages(message);
+  const messages = await DB.postMessages();
+  res.send(messages);
 });
 
 // Default error handler
