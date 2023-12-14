@@ -92,6 +92,13 @@ For this deliverable I stored all the messages in a database
 
 ## Login Deliverable
 
+For this deliverable I associate the messages with the logged in user
+
+ - **User Registration** - Creates a new account in the database
+ - **existing user** - Stores the messages under the logged in user
+ - **Use MongoDB to store credentials** - Stores the user
+ - **Restricts functionality** - You can't send messages unless you're logged in
+
 ## Websocket Deliverable
 
 ## React Deliverable
