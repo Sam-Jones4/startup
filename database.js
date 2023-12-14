@@ -50,4 +50,4 @@ function postMessages()
   return cursor.toArray();
 }
 
-module.exports = {addMessages, postMessages};
+module.exports = {getUser, getUserByToken, createUser, addMessages, postMessages};
