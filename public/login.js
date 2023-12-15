@@ -3,10 +3,10 @@
     if (userName) {
       document.querySelector('#playerName').textContent = userName;
       setDisplay('loginControls', 'none');
-      setDisplay('playControls', 'block');
+      setDisplay('chatControls', 'block');
     } else {
       setDisplay('loginControls', 'block');
-      setDisplay('playControls', 'none');
+      setDisplay('chatControls', 'none');
     }
   })();
   
