@@ -32,7 +32,7 @@
             <h3>Your drama-free chat platform</h3>
             <br>
             <h5>Log in</h5>
-            <div class="login-form">
+            <div class="login-form" id="loginControls">
                 <div>
                     <label for="username">Username</label>
                     <input type="text" id="username" placeholder="Username">
@@ -44,6 +44,11 @@
                     <button type="button" class="btn btn-primary btn-lg btn-block" onclick="loginUser()">Login</button>
                     <button type="button" class="btn btn-primary btn-lg btn-block" onclick="createUser()">Create</button>
                 </div>
+            </div>
+            <div id="chatControls" style="display: none;">
+                <div id="username"></div>
+                <button type="button" class="btn btn-primary" onclick="chat()">Chat</button>
+                <button type="button" class="btn btn-secondary" onclick="logout()">Logout</button>
             </div>
         </div>
     </main>
