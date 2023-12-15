@@ -101,4 +101,14 @@ For this deliverable I associate the messages with the logged in user
 
 ## Websocket Deliverable
 
+For this deliverable I began altering my program to include WebSockets
+
+ - **Backend listens for Websocket connection** - Done
+ - **Frontend makes WebSocket connection** - Done I think
+ - **Data sent over WebSocket Connection** - Couldn't figure this out in time
+ - **WebSocket data displayed** - Didn't get to this
+
 ## React Deliverable
+
+Sadly, I didn't get to refactoring my code using React, but I'm excited to learn more about 
+React in my own time!
