@@ -19,8 +19,12 @@
   }
   
   async function loginOrCreate(endpoint) {
-    const userName = document.querySelector('#userName')?.value;
-    const password = document.querySelector('#userPassword')?.value;
+    const userName = document.querySelector('#userName')?.textContent;
+    const password = document.querySelector('#userPassword')?.textContent;
+
+    console.log(userName);
+    console.log(password);
+
     const response = await fetch(endpoint, {
       method: 'post',
       body: JSON.stringify({ email: userName, password: password }),
