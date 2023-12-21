@@ -131,3 +131,89 @@ Done in a bad way
 
 fetch(‘/quote’) = a JS command that goes to a url and gets something. Returns a promise that resolves to some http thing
 
+10/31/23
+
+Chrome runtime engine for JS = V8
+Node.js is basically that engine but out of the browser (in the console)
+Allows you to do things from the back end in the same language
+NPM = Node package manager
+If you make an NPM put the node_modules file in your gitignore
+= require(‘http’) would import a package called http (built into Node)
+ 
+
+11/2/23
+
+Express
+Express - constructor and default middleware
+App - express application
+Req - request object
+Res - response object
+Router - adding child routing
+Cookies are stored in your browser, then automatically sent back when you revisit
+
+12/12/23
+OWASP 10
+Top risks for web
+Broken Access Control
+Least privilege access violation
+URL bypass control
+/payment/:accountid
+Resource ID allows access
+../../../etc/passwd
+Cryptographic failures
+Transmitting data as a clear text (not encrypted at all)
+Encrypting only at rest/transit (encrypting only part of the way, not end to end)
+Weak cryptography (sha1, md5)
+Misused cryptography (no salt, wrong params)
+Injection
+User supplied data is not sanitized
+BUD <IMG SRC=’X’ ONERROR…> HANSON
+BUD’ OR 1=1 OR NAME=’HANSON
+User supplied data programmatically executed
+Insecure design
+Not aware of the best practices
+Unlimited trial accounts
+Customer data not segmented (not everything is in the same place. Like maybe the username is behind one layer of data and the passwords are behind a different defense)
+Single layer defense
+Security misconfiguration
+Development info exposed
+Using default configurations
+Unnecessary features installed
+System not hardened
+Vulnerable Components
+unnecessary /unused packages imported
+untrusted/verified sources
+Out of date software
+Not tracking vulnerability bulletins
+Package versions not locked
+ID and auth failures
+Credential stuffing (compromised list)
+Brute force attacks (guess a password)
+Permitting weak passwords
+Weak credential recovery
+Credentials in url
+Not expiring auth tokens
+Software integrity failures
+Logging failure
+Not logging critical requests
+Not monitoring system performance
+Logs not audited, automatic or manual
+Logs not stored centrally
+No real-time response
+Server side request forgery
+Gruyere
+Juice Shop
+
+12/14/23 - last day of classes
+
+If you were to do this stuff fr, you would start with a framework like React
+There’s lots more things outside the scope of this class that you can do to enhance your site
+UI/UX
+Performance monitoring
+A single second can lead to
+11% fewer page views
+16% decrease in customer satisfaction
+7% loss in conversions
+Monitor and test things regularly to optimize
+SEO
+84% of people use Google 3+ times per day
