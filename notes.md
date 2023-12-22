@@ -217,3 +217,66 @@ A single second can lead to
 Monitor and test things regularly to optimize
 SEO
 84% of people use Google 3+ times per day
+
+Last minute personal final notes
+
+Ports and protocols
+20 = File Transfer Protocol (FTP) for data transfer
+22 = Secure Shell (SSH) for connecting to remote devices
+25 = Simple Mail Transfer Protocol (SMTP) for sending email
+53 = Domain Name Service (DNS) for looking up IP addresses
+80 = Hypertext Transfer Protocol (HTTP) for web requests
+123 = Network Time Protocol (NTP) for managing time
+443 = HTTP Secure (HTTPS) for secure web requests
+HTTP
+Methods
+GET
+Get an existing resource (no body)
+POST
+Create a new resource
+PUT
+Update an existing resource
+DELETE
+Delete a resource
+OPTIONS
+Get information about a resource
+Status Codes
+2xx
+200 Success, 204 No Content
+3xx
+301/302 Redirect, 304 Not Modified
+4xx
+400 Bad Request, 404 Not Found, 403 Forbidden, 429 Too Many Requests
+5xx
+500 Server Error, 503 Not Available
+CORS = Cross Origin Resource Sharing
+Header-based mechanism that allows a server to indicate any other origins from which a browser should permit loading resources
+Node
+NVM = Node Version Manager
+Node = JavaScript Runtime
+NPM = Node Package Manager
+Allows access to massive library of packages
+Install project packages
+Manage Package versions
+Configure execution of project
+Express
+Node package that provides support for:
+Routing requests for service endpoints
+Manipulating HTTP requests with JSON body content
+Generating HTTP responses
+Using middleware to add functionality
+Database services and their specialty
+MySQL - Relational queries
+Redis - Memory cached objects
+ElasticSearch - Ranked free text
+MongoDB - JSON objects
+DynamoDB - Key Value Pairs
+Neo4J - Graph based data
+InfluxDB - time series data
+Web frameworks
+Simplify common patterns
+Provide common components
+Improve performance
+Increase device coverage
+JSX
+Combines js and html
